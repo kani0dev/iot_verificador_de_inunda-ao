@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kani0dev.github.io/iot_verificador_de_inunda-ao/",
   "name": "rainiot",
   "version": "1.0.0",
   "main": "index.js",
@@ -6,7 +7,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "deploy": "gh-pages -d dist",
+    "build:web": "expo export-web"
   },
   "dependencies": {
     "expo": "~54.0.23",
@@ -16,5 +19,8 @@
     "react-native": "0.81.5",
     "react-native-web": "^0.21.2"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
