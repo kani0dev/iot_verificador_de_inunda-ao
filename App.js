@@ -7,6 +7,7 @@ import {
   FlatList,
 } from "react-native";
 import { useEffect, useState } from "react";
+import AlertaInundacao from "./component/alert/AlertaInundacao";
 
 const io_username = "kani0dev";
 const io_key = "aio_ePLU82oOVU5AKuKRVkITAxgikJzK";
@@ -82,6 +83,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <AlertaInundacao distancia={distancia} umidade={umidade}/>
       <Text style={styles.title}>Monitoramento — Distância + Umidade</Text>
 
       <View style={styles.card}>
