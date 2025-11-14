@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/iot_verificador_de_inunda-ao/static/js/main.669b0eae.js",
+    "static/js/192.7dd5fca1.js": "/iot_verificador_de_inunda-ao/static/js/192.7dd5fca1.js",
+    "favicon.ico": "/iot_verificador_de_inunda-ao/favicon.ico",
+    "index.html": "/iot_verificador_de_inunda-ao/index.html",
+    "favicon-32.png": "/iot_verificador_de_inunda-ao/favicon-32.png",
+    "favicon-16.png": "/iot_verificador_de_inunda-ao/favicon-16.png",
+    "serve.json": "/iot_verificador_de_inunda-ao/serve.json",
+    "manifest.json": "/iot_verificador_de_inunda-ao/manifest.json",
+    "main.669b0eae.js.map": "/iot_verificador_de_inunda-ao/static/js/main.669b0eae.js.map",
+    "192.7dd5fca1.js.map": "/iot_verificador_de_inunda-ao/static/js/192.7dd5fca1.js.map"
+  },
+  "entrypoints": [
+    "static/js/192.7dd5fca1.js",
+    "static/js/main.669b0eae.js"
+  ]
+}
